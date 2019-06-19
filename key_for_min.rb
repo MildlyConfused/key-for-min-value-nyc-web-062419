@@ -11,8 +11,10 @@ def key_for_min_value(name_hash)
       minKey = first
     end
   end
-  
-  return minKey
+  if minKey == {}
+    return nil 
+  else
+    return minKey
 end
 
 puts key_for_min_value({:chair => 20, :table => 85, :mattress => 450})
