@@ -11,7 +11,7 @@ def key_for_min_value(name_hash)
       minKey = first
     end
   end
-  if minKey == {}
+  if minKey == ""
     return nil 
   else
     return minKey
