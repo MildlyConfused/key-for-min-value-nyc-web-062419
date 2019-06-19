@@ -3,10 +3,11 @@
 
 def key_for_min_value(name_hash)
   newHash = {}
-  min = 999999999999
+  minVal = 999999999999
+  minKey = ""
   return min
   name_hash.collect do |first, value|
-    newHash[first] = value
+    if value
   end
   
   newHash
