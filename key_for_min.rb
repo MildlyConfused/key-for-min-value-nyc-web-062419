@@ -5,14 +5,13 @@ def key_for_min_value(name_hash)
   newHash = {}
   minVal = 999999999999
   minKey = ""
-  return min
   name_hash.collect do |first, value|
     if value < minVal
       minVal = value
       minKey = first
   end
   
-  newHash
+  return minKey
 end
 
 puts key_for_min_value({:chair => 90, :table => 85, :mattress => 450})
