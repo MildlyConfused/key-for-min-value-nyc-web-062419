@@ -4,7 +4,7 @@
 def key_for_min_value(name_hash)
   newHash = {}
   name_hash.collect do |first, value|
-    newHash[first] = value
+    newHash[first] = 7
   end
   
   newHash
