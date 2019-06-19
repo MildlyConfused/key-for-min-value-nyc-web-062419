@@ -7,7 +7,7 @@ def key_for_min_value(name_hash)
     newHash[first] = value
   end
   
-  newHash
+  puts newHash
 end
 
-puts key_for_min_value({:chair => 25, :table => 85, :mattress => 450})
+key_for_min_value({:chair => 25, :table => 85, :mattress => 450})
